@@ -1,0 +1,25 @@
+ion-item{
+    --padding-start: 10px;
+    --inner-padding-end: 10px;
+
+    ion-thumbnail{
+        height: 100%;
+        zoom: 150%;
+    }
+    h1{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+        color: rgb(168, 168, 168);
+    }
+    p+p{
+        font-size: 1rem;
+        color: rgb(168, 168, 168);
+    }
+    ion-item-options{
+        size: 100%;
+        background-color: #F2A413;
+    }
+}
